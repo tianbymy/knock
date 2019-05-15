@@ -26,7 +26,7 @@ module Knock
     end
 
     def to_json options = {}
-      {jwt: @token}.to_json
+      {code:200,jwt: @token}.to_json
     end
 
   private
