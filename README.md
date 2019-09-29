@@ -302,3 +302,11 @@ To enable cross-origin resource sharing, check out the [rack-cors](https://githu
 ## License
 
 MIT
+### 注意事项
+
+> Rails 6.0 注意事项
+``` 
+ config/application.rb
+ 增加如下配置：
+ config.autoloader = :classic
+```
